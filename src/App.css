@@ -1,0 +1,36 @@
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.764);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.count{
+  height:30px;
+  width:100px ;
+  padding: 0px 10px 0px 10px ;
+  background-color: rgb(211, 225, 225);
+  text-align: center;
+  padding: 6px;
+  font-weight: 700;
+  color: black;
+  border-radius: 20px;
+}
+
+button{
+  font-weight: 700;
+  height:30px;
+  width:80px ;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+}
